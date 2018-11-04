@@ -3,19 +3,43 @@
 }
 
 body {
-    margin: 10%;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     background: url('wall.jpg');
-    background-size: cover;
-}
-
-.contact_form {
-    background-color: #ffffff;
-    border-radius: 10px;
 }
 
 img {
     float: right;
 }
 
+h1 {
+    font-size: 30px;
+    color: red;
+}
 
+h2 {
+    font-size: 20px;
+    color: blue;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    border-radius: 6px;
+    width: 80%;
+    max-width: 900px;
+    min-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 100px #000000b3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.txt-label {
+    padding: 20px 0 20px 0;
+    font-style: normal;
+    font-size: 16px;
+}
