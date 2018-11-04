@@ -3,6 +3,19 @@
 }
 
 body {
-    margin: 0%;
+    margin: 10%;
+    padding: 10px;
+    background: url('wall.jpg');
+    background-size: cover;
 }
+
+.contact_form {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+img {
+    float: right;
+}
+
 
